@@ -1,0 +1,108 @@
+Arithmetic Operators in Java:
+
+Arithmetic operators in Java are used to perform common mathematical operations on numeric data types such as int, float, double, and long. These operators are fundamental in most programming tasks, ranging from simple calculations to complex algorithms. Below is a detailed explanation of each arithmetic operator available in Java:
+
+
+
+1. Addition (+):
+
+-> The + operator adds two operands together. It can be used with both numeric types and strings (for concatenation).
+
+Example-java Copy:
+
+int a = 10;
+int b = 20;
+int sum = a + b;  // sum = 30
+
+
+* String Concatenation: When used with strings, the + operator concatenates (joins) them together.
+
+Example-java Code:
+
+String firstName = "John";
+String lastName = "Doe";
+String fullName = firstName + " " + lastName;  // fullName = "John Doe"
+
+
+2. Subtraction (-)
+
+-> The - operator subtracts the right operand from the left operand.
+
+Example-java Code:
+
+int a = 30;
+int b = 10;
+int difference = a - b;  // difference = 20
+
+3. Multiplication (*)
+
+-> The * operator multiplies two operands.
+
+Example-java Code:
+
+int a = 5;
+int b = 4;
+int product = a * b;  // product = 20
+
+
+4. Division (/)
+
+-> The / operator divides the left operand by the right operand. If both operands are integers, the result will also be an integer (truncated to the nearest whole number).
+
+Example-java Code:
+
+int a = 20;
+int b = 4;
+int quotient = a / b;  // quotient = 5
+
+
+Important Note:
+
+* If you divide by zero, Java will throw an ArithmeticException for integers. However, for floating-point numbers (like float or double), dividing by zero results in positive or negative        infinity.
+
+Example with Floating Point-java Code:
+
+double a = 20.0;
+double b = 3.0;
+double result = a / b;  // result = 6.666666666666667
+
+5. Modulus (%)
+
+-> The % operator returns the remainder of the division of the left operand by the right operand.
+
+Example-java Code:
+
+int a = 10;
+int b = 3;
+int remainder = a % b;  // remainder = 1
+
+* Use Case: The modulus operator is commonly used to determine if a number is even or odd:
+
+Example-java Code:
+
+int number = 7;
+boolean isOdd = (number % 2 != 0);  // true, because 7 is odd
+
+6. Increment (++)
+
+-> The ++ operator increases the value of a variable by 1. It can be used in two forms:
+-> Pre-increment (++variable): Increments the value before using it in an expression.
+-> Post-increment (variable++): Increments the value after using it in an expression.
+
+Example-java Code:
+
+int a = 5;
+int preIncrement = ++a;  // preIncrement = 6, a = 6
+int postIncrement = a++;  // postIncrement = 6, a = 7
+
+7. Decrement (--)
+
+-> The -- operator decreases the value of a variable by 1. Like increment, it can also be used in two forms:
+-> Pre-decrement (--variable): Decrements the value before using it in an expression.
+-> Post-decrement (variable--): Decrements the value after using it in an expression.
+
+Example-java Code:
+
+int a = 5;
+int preDecrement = --a;  // preDecrement = 4, a = 4
+int postDecrement = a--;  // postDecrement = 4, a = 3
