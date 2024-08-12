@@ -8,7 +8,7 @@ Arithmetic operators in Java are used to perform common mathematical operations 
 
 -> The + operator adds two operands together. It can be used with both numeric types and strings (for concatenation).
 
-Example-java Copy:
+Example-java Code:
 
 int a = 10;
 int b = 20;
