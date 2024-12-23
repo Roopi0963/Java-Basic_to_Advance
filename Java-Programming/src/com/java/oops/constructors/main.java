@@ -1,6 +1,6 @@
-package com.java.training.oops.constructors;
+package com.java.oops.constructors;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         Customer customer;
         customer=new Customer();
