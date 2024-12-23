@@ -1,4 +1,4 @@
-package com.java.training.oops.constructors;
+package com.java.oops.constructors;
 
 public class Customer {
     int id;
@@ -40,7 +40,6 @@ public class Customer {
         System.out.println("USing constructors ...........! ");
         System.out.println("Id : "+id);
         System.out.println("Name of the customer : "+name);
-
         System.out.println("ContactNo : "+contNo);
         System.out.println("Age : "+age);
     }
