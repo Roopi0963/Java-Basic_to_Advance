@@ -1,8 +1,8 @@
 package com.java.Features.Abstraction.Animals;
 
-public abstract class Animal e
+public abstract class Animal {
     public Animal(String name, int age) {
-        super(name, age);
+        super();
     }
 
     abstract void makeSound();
